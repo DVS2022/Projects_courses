@@ -19,7 +19,6 @@ def multi_get():
     children = family_member.get('children', [])
     search_name = input('Введите имя ребенка: ')
     flag = False
-    print(family_member)
     for i in children:
         if i['name'] == search_name:
             print('Есть такой ребенок!')
