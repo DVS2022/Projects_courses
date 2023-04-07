@@ -1,7 +1,8 @@
 def bar_chart():
     """ Takes user input for a string of text and creates a bar
     chart displaying the frequency of each symbol (character) in
-    the text and shows max frequency. """
+    the text and shows max frequency.
+    """
     text = input('Введите текст: ').lower()
     symbol_dict = dict()
     for symbol in text:
