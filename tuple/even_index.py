@@ -11,11 +11,11 @@ def get_even_index(some_arg):
                 this_list.append(value)
         return this_list
     else:
-        print('Неверный тип данных', end=' ')
+        print('Invalid data type!', end=' ')
 
 
 some_str = 123
-some_lst = [1, 2, 3, 'бук', '$', 2, 'Y']
+some_lst = [1, 2, 3, 'asd', '$', 2, 'Y']
 
 print(get_even_index(some_str))
 print(get_even_index(some_lst))
