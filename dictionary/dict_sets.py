@@ -7,8 +7,8 @@ def sets():
     then performs several set operations on them. The function then
     prints the resulting sets and outputs some information about them.
     """
-    nums_1 = [random.randint(1, 20) for x in range(20)]
-    nums_2 = [random.randint(1, 20) for x in range(20)]
+    nums_1 = [random.randint(x+1, 20) for x in range(20)]
+    nums_2 = [random.randint(x+1, 20) for x in range(20)]
     print(nums_1)
     print(nums_2)
 
